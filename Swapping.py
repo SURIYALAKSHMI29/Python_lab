@@ -1,4 +1,4 @@
-Code 1:
+Code 1:(temp)
 a=int(input("a="))
 b=int(input("b="))
 print("Before swaping,\na=",a ,"\nb=",b)
@@ -7,14 +7,29 @@ a=b
 b=t
 print("After swapping,\na=",a,"\nb=",b)
 
-Code 2:
+Code 2:(arithmetic)
 a=int(input("a="))
 b=int(input("b="))
-print("Before swaping,\na=",a ,"\nb=",b)
-print("After swapping,\na=",b,"\nb=",a)
+print("Before swapping,\nValue of a:",a,"\nValue of b:",b)
+a=a+b
+b=a-b
+a=a-b
+print("After swapping,\nValue of a:",a,"\nValue of b:",b)
 
-Code 3:
-print("Enter a b=")
-a,b=map(int,input().split())
-print("Before swapping,",a,b)
-print("After swapping,",b,a)
+Code 3:(XOR)
+a=int(input("a="))
+b=int(input("b="))
+print("Before swapping,\na:",a,"\nb:",b)
+a=a^b
+b=a^b
+a=a^b
+print("After swapping,\na:",a,"\nb:",b)
+
+Code 4:(Comma)
+a=int(input("a="))
+b=int(input("b="))
+print("Before swapping,\na:",a,"\nb:",b)
+a=a^b
+b=a^b
+a=a^b
+print("After swapping,\na:",a,"\nb:",b)
