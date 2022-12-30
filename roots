@@ -1,0 +1,20 @@
+INPUT:
+a=int(input("Enter co-efficient of x^2:"))
+b=int(input("Enter co-efficient of x:"))
+c=int(input("Enter constant term:"))
+d=(b**2-(4*a*c))**0.5
+r1=(-b+d)/2*a
+r2=(-b-d)/2*a
+if(d==0):
+    print("Roots are real and equal\n","Roots are,",1,"and",r2)
+elif(abs(d)>0):
+    print("Roots are real and distinct\n","Roots are,",1,"and",r2)
+else:
+    print("Roots are imaginary or complex\n","Roots are,",r1,"and",r2)
+
+OUTPUT:
+Enter co-efficient of x^2:1
+Enter co-efficient of x:-1
+Enter constant term:-2
+Roots are real and distinct
+ Roots are, 1 and -1.0
