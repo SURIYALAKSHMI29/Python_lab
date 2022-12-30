@@ -1,0 +1,12 @@
+INPUT:
+n=input('Enter a letter:')
+if(n.isupper()):
+    print("**")
+elif(n.islower()):
+    print("U")
+else:
+    print("It is not an alphabetic character")
+ 
+OUTPUT:
+Enter a letter:o
+U
