@@ -29,7 +29,5 @@ Code 4:(Comma)
 a=int(input("a="))
 b=int(input("b="))
 print("Before swapping,\na:",a,"\nb:",b)
-a=a^b
-b=a^b
-a=a^b
+a,b=b,a
 print("After swapping,\na:",a,"\nb:",b)
