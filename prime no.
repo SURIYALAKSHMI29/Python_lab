@@ -1,0 +1,25 @@
+CODE:
+for i in range(1,51):
+    count=0
+    for j in range(2,i//2+1):
+        if(i%j==0):
+            count+=1
+    if(count==0 and i!=1):
+        print(i)
+
+OUTPUT:
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
