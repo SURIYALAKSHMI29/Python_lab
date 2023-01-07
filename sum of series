@@ -1,0 +1,26 @@
+SUM OF SERIES 1+2+3+...+N
+
+CODE:
+n=int(input("Enter n="))
+sum=0
+for i in range(1,n+1):
+    sum+=i
+print("Sum of series of",n,"is",sum)
+
+OUTPUT:
+Enter n=3
+Sum of series of 3 is 6
+
+
+SUM OF SERIES 1+3+5+...+N
+
+CODE:
+n=int(input("Enter n="))
+sum=0
+for i in range(1,n*2+1,2):
+    sum+=i
+print("Sum of series of",n,"is",sum)
+
+OUTPUT:
+Enter n=5
+Sum of series of 5 is 25
