@@ -1,0 +1,10 @@
+CODE:
+n=int(input("Enter hours to be converted:"))
+def m():
+    M=n*60
+    return M
+print("The",n,"hours is",m(),"minutes.")
+
+OUTPUT:
+Enter hours to be converted:4
+The 4 hours is 240 minutes.
