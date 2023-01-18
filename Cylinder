@@ -1,0 +1,17 @@
+CODE:
+def peri():
+    return 4*r+2*h
+def area():
+    return 2*3.14*r*(h+r)
+r=int(input("Enter Radius:"))
+h=int(input("Enter Height:"))
+print("For cylinder with radius",r,"and height",h,",")
+print("Perimeter",peri())
+print("Area",area())
+
+OUTPUT:
+Enter Radius:4
+Enter Height:3
+For cylinder with radius 4 and height 3 ,
+Perimeter 22
+Area 175.84
