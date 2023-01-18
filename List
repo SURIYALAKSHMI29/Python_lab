@@ -1,0 +1,22 @@
+CODE:
+n=int(input("Enter no.of elements:"))
+list1=[]
+for i in range(0,n):
+    e=int(input("enter list element:"))
+    list1.append(e)
+print("list=",list1)
+print("Sum of elements in a list",sum(list1))
+list1.reverse()
+print("Reversed list is,\n",list1) 
+
+OUTPUT:
+Enter no.of elements:5
+enter list element:2
+enter list element:3
+enter list element:9
+enter list element:1
+enter list element:4
+list= [2, 3, 9, 1, 4]
+Sum of elements in a list 19
+Reversed list is,
+ [4, 1, 9, 3, 2]
