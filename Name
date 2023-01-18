@@ -1,0 +1,12 @@
+CODE:
+def name(x,y):
+    N=x+y
+    return N
+n1=input("Enter first name:")
+n2=input("Enter last name:")
+print("Name:",name(n1,n2))
+
+OUTPUT:
+Enter first name:SURIYA
+Enter last name: LAKSHMI
+Name: SURIYALAKSHMI
