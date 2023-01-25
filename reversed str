@@ -1,0 +1,11 @@
+CODE:
+n=input("Enter string:")
+n1=n
+n=""
+for letter in n1:
+    n=letter+n
+print("Reversed string:",n)
+
+OUTPUT:
+Enter string:suriya
+Reversed string: ayirus
