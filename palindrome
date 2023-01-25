@@ -1,0 +1,14 @@
+CODE:
+n=input("Enter string:")
+n1=n
+n=""
+for letter in n1:
+    n=letter+n
+if(n==n1):
+    print(n1,"is Palindrome")
+else:
+    print(n1,"is not Palindrome")
+            
+OUTPUT:
+Enter string:Malayalam
+malayalam is Palindrome
