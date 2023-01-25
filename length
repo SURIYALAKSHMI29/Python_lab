@@ -1,0 +1,10 @@
+CODE:
+n=input("Enter string:")
+count=0
+for i in n:
+    count+=1
+print("Length of given string is",count)
+
+OUTPUT:
+Enter string:suriya
+Length of given string is 6
