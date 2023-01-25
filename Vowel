@@ -1,0 +1,12 @@
+CODE:
+n=input("Enter string:")
+v="A,E,I,O,U,a,e,i,o,u"
+for i in n:
+    for j in v:
+        if(i==j):
+            n=n.replace(i,'@')
+print(n)
+
+OUTPUT:
+Enter string:suriya
+s@r@y@
