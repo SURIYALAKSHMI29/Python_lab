@@ -1,0 +1,32 @@
+INPUT:
+t=("Tyre","Seat","Engine","Doors","Gear")
+print("The components of cars are",t)
+#concatenation
+t1=("Battery","Gear")
+print("After concatenation,",t+t1)
+#repetition
+print("Repeating 3 times of the tuple",t*3)
+#slicing
+print("Slicing",t[:2])
+#indexing
+print("Index value of Engine:",t.index("Engine"))
+#length
+print("Length of components of car is,",len(t))
+#min & max
+print("Minimum value:",min(t))
+print("Maximum value:",max(t))
+#count
+print("No.of times Seat present is",t.count("Seat"))
+print("No.of times Viper present is",t.count("Viper"))
+
+OUTPUT:
+The components of cars are ('Tyre', 'Seat', 'Engine', 'Doors', 'Gear')
+After concatenation, ('Tyre', 'Seat', 'Engine', 'Doors', 'Gear', 'Battery', 'Gear')
+Repeating 3 times of the tuple ('Tyre', 'Seat', 'Engine', 'Doors', 'Gear', 'Tyre', 'Seat', 'Engine', 'Doors', 'Gear', 'Tyre', 'Seat', 'Engine', 'Doors', 'Gear')
+Slicing ('Tyre', 'Seat')
+Index value of Engine: 2
+Length of components of car is, 5
+Minimum value: Doors
+Maximum value: Tyre
+No.of times Seat present is 1
+No.of times Viper present is 0
