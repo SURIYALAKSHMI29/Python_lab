@@ -1,0 +1,14 @@
+INPUT:
+S=set([1,7,9])
+print("Set:",S)
+el=int(input("Enter element to be added:"))
+S.add(el)
+print("After adding a element:",S)
+S.add(9)
+print("After adding 9 again:",S)
+
+OUTPUT:
+Set: {1, 9, 7}
+Enter element to be added:11
+After adding a element: {1, 11, 9, 7}
+After adding 9 again: {1, 11, 9, 7}
