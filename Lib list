@@ -1,0 +1,48 @@
+INPUT:
+l=["Story books","Articles","Fictional books","Horror"]
+print("Items present in library are",l)
+#append()
+A=input("Enter genre to be included:")
+l.append(A)
+print("List after appending",A,"is",l)
+#Extend()
+l.extend(['Novels','Newspaper'])
+print("list after extending",l)
+#insert()
+I=input("Enter genre to be included:")
+P=int(input("Enter the index position:"))
+l.insert(P,I)
+print("List after inserting",l)
+#remove()
+R=input("Enter element to be removed:")
+l.remove(R)
+print("List after removing",R,"is",l)
+#pop()
+O=int(input("Enter index value of genre to be poped off:"))
+l.pop(O)
+print("List after popping",l)
+#min() & max()
+print("Minimum value of the list:",min(l))
+print("Maximum value of the list:",max(l))
+#clear() & del()
+del l[2]
+print("After deleting element at 2nd index value",l)
+l.clear()
+print("After clearing the list,",l)
+
+OUTPUT:
+Items present in library are ['Story books', 'Articles', 'Fictional books', 'Horror']
+Enter genre to be included:Comics
+List after appending Comics is ['Story books', 'Articles', 'Fictional books', 'Horror', 'Comics']
+list after extending ['Story books', 'Articles', 'Fictional books', 'Horror', 'Comics', 'Novels', 'Newspaper']
+Enter genre to be included:History
+Enter the index position:3
+List after inserting ['Story books', 'Articles', 'Fictional books', 'History', 'Horror', 'Comics', 'Novels', 'Newspaper']
+Enter element to be removed:Newspaper
+List after removing Newspaper is ['Story books', 'Articles', 'Fictional books', 'History', 'Horror', 'Comics', 'Novels']
+Enter index value of genre to be poped off:2
+List after popping ['Story books', 'Articles', 'History', 'Horror', 'Comics', 'Novels']
+Minimum value of the list: Articles
+Maximum value of the list: Story books
+After deleting element at 2nd index value ['Story books', 'Articles', 'Horror', 'Comics', 'Novels']
+After clearing the list, []
