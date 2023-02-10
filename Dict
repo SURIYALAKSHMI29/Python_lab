@@ -1,0 +1,21 @@
+INPUT:
+D=dict((("Brand","Lenova"),("Model","ThinkPad X1 Yoga"),("RAM","16 GB"),("Display","14 inch"),("Camera","IR Camera"),("OS","10 Home 64")))
+print("Specification of laptop using dict:",D)
+#accessing using key
+print("Laptop specifications:")
+print("Brand name:",D["Brand"])
+print("Model:",D["Model"])
+print("OS:",D["OS"])
+print("RAM:",D["RAM"])
+print("Camera:",D["Camera"])
+print("Display:",D["Display"])
+
+OUTPUT:
+Specification of laptop using dict: {'Brand': 'Lenova', 'Model': 'ThinkPad X1 Yoga', 'RAM': '16 GB', 'Display': '14 inch', 'Camera': 'IR Camera', 'OS': '10 Home 64'}
+Laptop specifications:
+Brand name: Lenova
+Model: ThinkPad X1 Yoga
+OS: 10 Home 64
+RAM: 16 GB
+Camera: IR Camera
+Display: 14 inch
